@@ -3,6 +3,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
 }
+/* Introduction Banner */
 .intro{
     width: 1321px;
     height: 646px;
@@ -69,6 +70,7 @@ body {
     width: 24px;
     height: 24px;
 }
+/* Menu Items */
 .menu-items{
     width: 220px;
     height: 312px;
@@ -108,6 +110,7 @@ body {
 .link-button2:hover{
     color: #FFFFFF;
 }
+/* Match Grid */
 .flag{
     width: 252px;
     height: 56.18px;
@@ -140,6 +143,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+/* Foooter Final */
 .footer{
     width: 100%;
     height: 300px;
@@ -178,6 +182,7 @@ body {
     margin: 20px;
     
 }
+/* Blog Page */
 .blog{
     width: 312px;
     height: 362px;
@@ -221,6 +226,9 @@ body {
 .view-all{
     display: none;
 }
+
+/* Mobile reesponsive for I-phone XE......
+Please click I-phone XE when check and also click the buttons for understanding responsiveness */
 @media only screen and (max-width: 376px) {
 
     .intro{
@@ -455,6 +463,8 @@ body {
     display: none;
 }
 }
+/* Mobile reesponsive for I-pad Mini Air XE......
+Please click I-pad Mini Air when check and also click the buttons for understanding responsiveness */
 @media only screen and (min-width: 377px) and (max-width: 821px){
 
     .intro{
